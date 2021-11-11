@@ -9,10 +9,10 @@
 <div align="center">
   <h3>
     <a href="https://github.com/milliro/not-found">
-      Demo
+      Repository
     </a>
     <span> | </span>
-    <a href="https://github.com/milliro/not-found">
+    <a href="https://milliro.github.io/not-found/">
       Solution
     </a>
     <span> | </span>
