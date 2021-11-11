@@ -1,0 +1,185 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+}
+
+/* erro */
+#erro {
+  color: #333333;
+  display: block;
+  font-size: 1.5rem;
+  margin: 2.5rem 4.8rem;  
+  text-transform: uppercase;
+  font-family: 'Inconsolata', monospace;
+}
+
+/* main */
+.center {
+  display: flex;
+  min-height: 80vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container--main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  gap: 2.5rem;
+}
+
+.title {
+  color: #333333;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.description {
+  color: #4f4f4f;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: 400;
+  margin-top: 2.25rem;
+  margin-bottom: 4rem;
+}
+
+.btn {
+  color: #fff;
+  display: block;
+  max-width: 160px;
+  text-align: center;
+  background: #333333;
+  padding: 1.5rem 2.625rem;
+  text-transform: uppercase;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+/* footer */
+footer {
+  color: #857DAA;
+  font-size: .8rem;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+}
+
+footer a {
+  color: #2B254F;
+  display: inline-block;
+  padding: .5rem .2rem;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+footer a:hover{
+  color: #F46B5A;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+/* responsive mobile */
+
+@media (max-width: 739px) {
+  .container--main {
+    max-width: 300px;
+    display: block;
+  }
+
+  .container--content {
+    margin: 80px 0;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 1.2rem 1.6rem;
+  }
+
+  footer {
+    position: relative;
+    font-size: .7rem;
+  }
+}
