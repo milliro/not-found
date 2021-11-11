@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://github.com/milliro/not-found">
-      Repository
+    <a href="https://milliro.github.io/not-found/">
+      Demo
     </a>
     <span> | </span>
-    <a href="https://milliro.github.io/not-found/">
+    <a href="https://github.com/milliro/not-found">
       Solution
     </a>
     <span> | </span>
